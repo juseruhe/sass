@@ -1,33 +1,18 @@
 // Variables
+@import "variables";
 
-$ColorUno: #f9ed69;
-$ColorDos: #b83b5e;
-$ColorTres: #6a2c70;
-$ColorCuatro: orange;
-
+// Header
+@import "header";
 
 
 section{
-   
-    background: $ColorUno;
-    h1{
-        background: $ColorUno;
-
-    }
-
-    h2{
-        background: $ColorDos;
-    }
-
-    p{
-        background: $ColorTres;
-    }
+    height: 200px;
+    background: $ColorTres;
 }
 
 footer{
-
-    p{
-        background: $ColorUno;
-    }
+    height: 200px;
+    background: $ColorCuatro;
+ 
 
 }
