@@ -1,0 +1,25 @@
+//Nombre Mixin
+@mixin cuadrado ($fondo,$ancho:200) {
+
+    background-color: $fondo;
+    width: $ancho;
+    height:200px;
+    margin-top: 5px;
+    padding: 10px;
+    
+}
+
+
+.cuadrado-1{
+    @include cuadrado(#111,300px);
+}
+
+.cuadrado-2{
+    @include cuadrado(#222);
+    
+}
+
+.cuadrado-3{
+    @include cuadrado(#333,600px);
+}
+
